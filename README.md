@@ -1,4 +1,4 @@
-# FEAD
+# AnoTuner
 
 ## Overview
 
@@ -6,9 +6,9 @@ As cellular networks have continued to evolve rapidly, Wireless Base Stations (W
 
 In particular, in real-world scenarios, the feedback often has a low frequency of false negatives, and its data distribution may be notably different from the original training dataset. This difference can lead to limited performance improvements in existing methods.
 
-## Introducing FEAD
+## Introducing AnoTuner
 
-In light of these challenges, this project presents **FEAD (Feedback-based Enhancement in Anomaly Detection)**. FEAD brings forth two primary mechanisms to address these shortcomings:
+In light of these challenges, this project presents **AnoTuner (Feedback-based Enhancement in Anomaly Detection)**. AnoTuner brings forth two primary mechanisms to address these shortcomings:
 
 1. **False Negative Augmentation Mechanism**: This mechanism is designed to generate feedback cases that mirror false negatives. This assists in offsetting the typically low frequency of such feedback, ensuring the method remains robust and efficient.
 
@@ -16,7 +16,7 @@ In light of these challenges, this project presents **FEAD (Feedback-based Enhan
 
 ## Experimental Results
 
-FEAD's efficacy has been put to the test using real-world data sourced from a leading global Internet Service Provider (ISP). The results indicate that FEAD, after undergoing feedback-based fine-tuning, exhibits a significantly better performance improvement as compared to other baseline methods.
+AnoTuner's efficacy has been put to the test using real-world data sourced from a leading global Internet Service Provider (ISP). The results indicate that AnoTuner, after undergoing feedback-based fine-tuning, exhibits a significantly better performance improvement as compared to other baseline methods.
 
 ---
 
@@ -26,7 +26,7 @@ This project seeks to push the boundaries of anomaly detection in the realm of c
 
 ## Overview
 
-![The workflow of FEAD](images/Overall.png)
+![The workflow of AnoTuner](images/Overall.png)
 
-![The architecture of FEAD](images/base_model.png)
+![The architecture of AnoTunerBackbone](images/base_model.png)
 
