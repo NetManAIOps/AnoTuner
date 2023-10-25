@@ -2,9 +2,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class FEAD(nn.Module):
+class AnoTunerBackBone(nn.Module):
     def __init__(self, input_dim, cnn_out_dim, hidden_dim, latent_dim, condition_dim):
-        super(FEAD, self).__init__()
+        super(AnoTunerBackBone, self).__init__()
 
         # Encoder
         self.conv1 = nn.Conv1d(input_dim, cnn_out_dim, kernel_size=3, stride=1, padding=1)
